@@ -1,0 +1,30 @@
+/* Override default styles from index.css */
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #ffffff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: block;
+  min-width: 100%;
+  width: 100%;
+  max-width: 100%;
+  min-height: 100vh;
+}
+
+#root {
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+/* This needs to be imported after index.css to override the defaults */ 
